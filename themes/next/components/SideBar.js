@@ -28,9 +28,6 @@ const SideBar = (props) => {
           <InfoCard {...props} />
         </section>
 
-        {/* 3. 🎯 倒计时组件 - 添加在这里 */}
-        <Countdown />
-
         {/* 分类  */}
         {categories && (
           <section className='mt-8'>
@@ -70,6 +67,9 @@ const SideBar = (props) => {
         )}
 
         {slot}
+
+        {/* 3. 🎯 倒计时组件 - 添加在这里 */}
+        <Countdown />
 
       </div>
 
