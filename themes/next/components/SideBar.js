@@ -79,6 +79,8 @@ const SideBar = (props) => {
 
 // 在文件末尾（export default 之前）添加倒计时组件
 const Countdown = () => {
+  console.log('倒计时组件已加载');
+  
   const [timeLeft, setTimeLeft] = useState({
     days: 0,
     hours: 0,
